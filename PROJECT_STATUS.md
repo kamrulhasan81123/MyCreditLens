@@ -2,7 +2,7 @@
 
 **Date:** August 12, 2026  
 **Project:** AI-Powered Credit Assessment Platform  
-**Repository:** https://github.com/arafateasin/QieMind.git
+**Repository:** 
 
 ---
 
