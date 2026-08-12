@@ -1,0 +1,15 @@
+{
+  "class_counts": {
+    "0": 25109,
+    "1": 6712
+  },
+  "clean_rows": 31821,
+  "dataset_name": "loan_dataset_uk_32k",
+  "duplicates_dropped": 761,
+  "feature_schema_version": "app_pd_2.0.0",
+  "null_target_dropped": 4,
+  "path": "..\\dataset for training\\LoanDataset - LoansDatasest.csv",
+  "raw_rows": 32586,
+  "sha256": "41e45a6462069c9e05484c3fa221cc7d257f5b71f14a60010bb684132d026381",
+  "target_definition": "Binary personal-loan default outcome derived from Current_loan_status: 1 = DEFAULT, 0 = NO DEFAULT. Provenance of the underlying public CSV is undocumented in the repository; treat metrics as development-grade, not evidence of real-world or Malaysian-market performance."
+}

@@ -1,0 +1,18 @@
+{
+  "dataset": "home_credit_default_risk_application_train",
+  "original_path": "dataset for training/archive (5)/train.csv",
+  "sha256": "70618b8561c852d86c520281dc24859f514948230532e9c9d4369507d4dcafd2",
+  "rows": 261384,
+  "cols": 122,
+  "target": "target",
+  "target_meaning": "client had payment difficulties (real default)",
+  "schema_version": "home_credit_renamed_v1",
+  "secondary_tables": [
+    "bureau",
+    "previous_loan",
+    "installments_payments",
+    "credit_card_balance",
+    "cash_pos_balance"
+  ],
+  "note": "Research/benchmark only; application-only inference-safe subset used for 2.1.0-challenger."
+}

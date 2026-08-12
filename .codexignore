@@ -1,0 +1,61 @@
+# Dependencies and package manager caches
+node_modules/
+.pnpm-store/
+.yarn/
+
+# Next.js and build outputs
+.next/
+out/
+dist/
+build/
+coverage/
+tsconfig.tsbuildinfo
+
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Local runtime data
+uploads/
+backend/uploads/
+mlruns/
+backend/mlruns/
+backend/ml/artifacts/
+backend/ml/datasets/
+*.joblib
+*.sqlite
+*.sqlite3
+
+# Environment and secret files
+.env
+.env.*
+!.env.example
+!backend/.env.example
+
+# Generated/static binary assets that rarely help code reasoning
+public/*.png
+public/*.jpg
+public/*.jpeg
+public/*.gif
+public/*.webp
+
+# Vercel/v0/sandbox metadata
+.vercel/
+.snowflake/
+.v0-trash/
+__v0_runtime_loader.js
+__v0_devtools.tsx
+__v0_jsx-dev-runtime.ts
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*

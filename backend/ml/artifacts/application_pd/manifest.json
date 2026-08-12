@@ -1,0 +1,13 @@
+{
+  "artifact_contract_version": "1.0",
+  "files": {
+    "calibrator.joblib": "f6caa7b690df66b3355579504420d4d1e7ff0de73079ed0515e6d1974fc3cb01",
+    "explainer.joblib": "7401bb355c072d4a7d0a03cde7856e5558350d17eea4639d14c59bbff505512a",
+    "feature_schema.json": "814df4bad317d35bd98b5b0556696a2a88246cc647361aae860c7f56987a314a",
+    "model.joblib": "2685cc0cf8ea03e9ee2d4e72deed276c2557a2b0021f9afea5d2106fad5616f2",
+    "model_card.md": "afde54d93952c012aef211386ec61a4bd10940622778b0ab4facdf37e8540b7c",
+    "model_metadata.json": "7b70ce72d56abaf35ae60837d1536e4f2a45834914f1b67e0ca9c914ed4252a1",
+    "preprocessor.joblib": "5de8f10ccc34630d21b054792294296a6c2efaa693ec6682a995152615967a1f",
+    "thresholds.json": "6c6d7c8b03a8841ca485e30a875f5556e5899ae8e5057b6a985f67d4144d9485"
+  }
+}

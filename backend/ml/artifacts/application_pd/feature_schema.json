@@ -1,0 +1,46 @@
+{
+  "artifact_contract_version": "1.0",
+  "categorical_features": [
+    "home_ownership",
+    "loan_intent"
+  ],
+  "feature_schema_version": "app_pd_2.0.0",
+  "numeric_features": [
+    "customer_age",
+    "customer_income",
+    "employment_duration",
+    "loan_amnt",
+    "term_years",
+    "loan_percent_income"
+  ],
+  "protected_columns_excluded": [],
+  "raw_feature_order": [
+    "customer_age",
+    "customer_income",
+    "employment_duration",
+    "home_ownership",
+    "loan_intent",
+    "loan_amnt",
+    "term_years",
+    "loan_percent_income"
+  ],
+  "target_column": "target",
+  "transformed_feature_names": [
+    "numeric__customer_age",
+    "numeric__customer_income",
+    "numeric__employment_duration",
+    "numeric__loan_amnt",
+    "numeric__term_years",
+    "numeric__loan_percent_income",
+    "categorical__home_ownership_MORTGAGE",
+    "categorical__home_ownership_OTHER",
+    "categorical__home_ownership_OWN",
+    "categorical__home_ownership_RENT",
+    "categorical__loan_intent_DEBTCONSOLIDATION",
+    "categorical__loan_intent_EDUCATION",
+    "categorical__loan_intent_HOMEIMPROVEMENT",
+    "categorical__loan_intent_MEDICAL",
+    "categorical__loan_intent_PERSONAL",
+    "categorical__loan_intent_VENTURE"
+  ]
+}

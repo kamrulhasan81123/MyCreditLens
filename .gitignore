@@ -1,0 +1,68 @@
+# v0 sandbox internal files
+__v0_runtime_loader.js
+__v0_devtools.tsx
+__v0_jsx-dev-runtime.ts
+.snowflake/
+.v0-trash/
+.vercel/
+
+# ---------------------------------------------------------------------------
+# Secrets — NEVER commit real env files (examples are allowed)
+# ---------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+!backend/.env.example
+.env*.local
+backend/.env
+
+# ---------------------------------------------------------------------------
+# Node / Next
+# ---------------------------------------------------------------------------
+node_modules
+.next/
+.pnpm-store/
+out/
+build/
+.DS_Store
+tsconfig.tsbuildinfo
+playwright-report/
+test-results/
+
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+backend/.venv/
+**/.venv/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# ---------------------------------------------------------------------------
+# Local databases (dev/test only)
+# ---------------------------------------------------------------------------
+*.db
+*.db-*
+*.sqlite3
+backend/*.db*
+
+# ---------------------------------------------------------------------------
+# Datasets — large / not for version control. The active MODEL BUNDLE
+# (backend/ml/artifacts/application_pd/) IS committed so the app runs; the raw
+# training datasets must be re-placed to retrain or to run eval-set fairness.
+# ---------------------------------------------------------------------------
+dataset for training/
+backend/ml/data/raw/**/*.xls
+backend/ml/data/raw/**/*.xlsx
+backend/ml/data/raw/**/*.zip
+backend/ml/data/raw/**/*.csv
+
+# Archived (superseded) model bundles — keep the repo lean
+backend/ml/artifacts/_archive/
+
+# ---------------------------------------------------------------------------
+# Misc
+# ---------------------------------------------------------------------------
+uploads/
+*.log
+.secret_tmp

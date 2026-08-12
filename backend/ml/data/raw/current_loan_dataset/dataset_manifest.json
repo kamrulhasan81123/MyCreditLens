@@ -1,0 +1,14 @@
+{
+  "dataset": "loan_dataset_uk_32k",
+  "original_path": "dataset for training/LoanDataset - LoansDatasest.csv",
+  "sha256": "41e45a6462069c9e05484c3fa221cc7d257f5b71f14a60010bb684132d026381",
+  "rows": 32586,
+  "cols": 13,
+  "target": "Current_loan_status",
+  "target_values": [
+    "DEFAULT",
+    "NO DEFAULT"
+  ],
+  "schema_version": "loan_dataset_v1",
+  "note": "Active 2.0.0 training source. Provenance undocumented."
+}

@@ -1,0 +1,12 @@
+dataset_name: loan_dataset_uk_32k
+dataset_path: ..\dataset for training\LoanDataset - LoansDatasest.csv
+dataset_sha256: 41e45a6462069c9e05484c3fa221cc7d257f5b71f14a60010bb684132d026381
+model_version: 2.0.0
+feature_schema_version: app_pd_2.0.0
+random_state: 42
+optuna_trials: 25
+split_strategy: stratified_random (70/15/15, seed 42)
+selected_model: hist_gradient_boosting
+calibration_method: sigmoid
+python: 3.12.10
+scikit_learn: 1.6.1

@@ -1,0 +1,14 @@
+{
+  "include": ["backend/app", "backend/ml", "backend/tests", "backend/scripts"],
+  "exclude": [
+    "**/__pycache__"
+  ],
+  "extraPaths": [
+    "backend",
+    "C:\\Users\\user\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages"
+  ],
+  "pythonVersion": "3.12",
+  "typeCheckingMode": "basic",
+  "venvPath": "C:\\Users\\user\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0",
+  "venv": "LocalCache\\local-packages\\Python312"
+}

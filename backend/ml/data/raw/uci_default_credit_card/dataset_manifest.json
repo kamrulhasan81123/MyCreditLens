@@ -1,0 +1,13 @@
+{
+  "dataset": "uci_default_of_credit_card_clients",
+  "file": "default of credit card clients.xls",
+  "sha256": "30c6be3abd8dcfd3e6096c828bad8c2f011238620f5369220bd60cfc82700933",
+  "rows": 30000,
+  "cols": 25,
+  "target": "default payment next month",
+  "class_distribution": {
+    "0": 23364,
+    "1": 6636
+  },
+  "schema_version": "uci_dccc_v1"
+}
